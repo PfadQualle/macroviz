@@ -1,7 +1,7 @@
 {
   "version": 1,
   "locale": "en_US",
-  "platform": "4.6.0",
+  "platform": "4.6.1",
   "metadata": {
     "appmode": "shiny",
     "primary_rmd": null,
@@ -1908,13 +1908,22 @@
   },
   "files": {
     "app.R": {
-      "checksum": "bb418e0f1468bb771c352161fe5a30dd"
+      "checksum": "13fe9c784320ef279ebee60c491ec1c8"
+    },
+    "global.R": {
+      "checksum": "c94ee65a5499ded0f5828dede4e4943f"
     },
     "LICENSE": {
       "checksum": "4324192a9fdfa301587fc3c7ce5e723e"
     },
     "README.md": {
       "checksum": "5fe4d56d2ae92b9f9936148927730187"
+    },
+    "server.R": {
+      "checksum": "b09c04fbdacaa3935b7c89118e724eab"
+    },
+    "ui.R": {
+      "checksum": "a018c7419dc32168c34f64c5ca922e85"
     }
   },
   "users": null
