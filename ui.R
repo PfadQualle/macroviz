@@ -72,31 +72,26 @@ ui <- page_sidebar(
       value_box(
         title    = "Output per capita  Y",
         value    = textOutput("vb_Y"),
-        showcase = bsicons::bs_icon("boxes"),
         theme    = "primary"
       ),
       value_box(
         title    = "Output Gap  Y − Yₙ",
         value    = textOutput("vb_gap"),
-        showcase = bsicons::bs_icon("thermometer-half"),
         theme    = value_box_theme(bg = "#fdedec", fg = "#2c3e50")
       ),
       value_box(
         title    = "Real Rate  r = i − πᵉ",
         value    = textOutput("vb_r"),
-        showcase = bsicons::bs_icon("bank"),
         theme    = "secondary"
       ),
       value_box(
         title    = "Inflation  π",
         value    = textOutput("vb_pi"),
-        showcase = bsicons::bs_icon("graph-up"),
         theme    = value_box_theme(bg = "#fef9e7", fg = "#2c3e50")
       ),
       value_box(
         title    = "Inflation Gap  π − target",
         value    = textOutput("vb_pigap"),
-        showcase = bsicons::bs_icon("arrows-expand"),
         theme    = value_box_theme(bg = "#e8f4f8", fg = "#2c3e50")
       )
     )
